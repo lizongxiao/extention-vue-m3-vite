@@ -1,6 +1,6 @@
 {
-  "name": "crx-vue",
-  "description": "A Chrome extension demo.",
+  "name": "extention-vue-m3-vite",
+  "description": "extention-vue-m3-vite",
   "version": "1.0.0",
   "icons": {
     "16": "assets/icons/icon16.png",
@@ -10,17 +10,21 @@
   "action": {
     "default_popup": "../popup.html"
   },
-  "content_scripts": [{
-    "matches": [ "<all_urls>" ],
-    "js": [ "content-scripts/content.ts"],
-    "run_at": "document_start"
-  }],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-scripts/content.ts"],
+      "run_at": "document_start"
+    }
+  ],
   "background": {
     "service_worker": "background.ts"
   },
-  "web_accessible_resources": [{
-    "matches": ["<all_urls>"],
-    "resources": ["assets/*"]
-  }],
+  "web_accessible_resources": [
+    {
+      "matches": ["<all_urls>"],
+      "resources": ["assets/*"]
+    }
+  ],
   "manifest_version": 3
 }
