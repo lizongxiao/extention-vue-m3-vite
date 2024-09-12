@@ -1,0 +1,28 @@
+{
+  "name": "seascross_cj",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite build --watch --mode development",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.5.4"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.270",
+    "@types/node": "^22.5.4",
+    "@types/vue": "^2.0.0",
+    "@vitejs/plugin-vue": "^5.1.3",
+    "less": "^4.1.3",
+    "sass-embedded": "^1.78.0",
+    "typescript": "^4.5.4",
+    "vite": "^5.4.4",
+    "vite-plugin-crx-mv3": "^0.1.7",
+    "vue-tsc": "^0.40.13"
+  },
+  "license": "ISC",
+  "volta": {
+    "node": "20.17.0"
+  }
+}
