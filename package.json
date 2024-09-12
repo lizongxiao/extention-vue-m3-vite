@@ -9,6 +9,9 @@
   "dependencies": {
     "vue": "^3.5.4"
   },
+  "author": {
+    "name": "extention-vue-m3-vite"
+  },
   "devDependencies": {
     "@types/chrome": "^0.0.270",
     "@types/node": "^22.5.4",
